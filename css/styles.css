@@ -1,0 +1,81 @@
+/*****************************************************************
+
+    GENERAL
+
+/*****************************************************************/
+
+body {
+  padding-bottom: 40px;
+}
+
+/* HEADER */
+
+#header {
+  margin: 0;
+  background-color: #111;
+  position:fixed;
+  }
+
+#header img {
+  height: 28px;
+}
+
+@media (max-width: 1000px) {
+  #header img {
+    height: 50px;
+  }
+}
+
+/*****************************************************************
+
+    HOME
+
+/*****************************************************************/
+
+/* INTRO */
+
+#intro {
+  background-color: #222;
+  background-image: url("../fotosEMG/img_background/pngtree-blue-minimalist-technology-computer-banner-image_188887.jpg");
+  padding: 13rem;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+#intro h1 {
+  font-size: 90px;
+  margin-top: 10px;
+    color: #ffffff;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+#content {
+  background-color: #eceff1;
+  border: 1px solid #cfd8dc;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+}
+
+#content h2 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+#content p {
+  font-size: 0.85rem;
+  text-align: justify;
+}
+
+@media (max-width: 1000px) {
+  #intro {
+    padding: 0px 0;
+  }
+  #intro h1 {
+    font-size: 40px;
+  }
+}
